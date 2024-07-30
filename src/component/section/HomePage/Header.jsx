@@ -5,7 +5,7 @@ export default function Header() {
         <header class="bg-white">
             <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div class="flex lg:flex-1">
-                    <a href="/" class="-m-1.5 p-1.5">
+                    <a href="#" class="-m-1.5 p-1.5">
                         <span class="sr-only">Your Company</span>
                         <img class="h-12 w-auto" src={logo} alt=""/>
                     </a>
@@ -18,15 +18,15 @@ export default function Header() {
                         </svg>
                     </button>
                 </div>
-                <div class="hidden lg:flex lg:gap-x-12 text-base">
-                    <a href="#" class="font-semibold leading-6 text-gray-900">Home</a>
-                    <a href="#" class="font-semibold leading-6 text-gray-900">About</a>
-                    <a href="#" class="font-semibold leading-6 text-gray-900">Education</a>
-                    <a href="#" class="font-semibold leading-6 text-gray-900">Coursework</a>
-                    <a href="#" class="font-semibold leading-6 text-gray-900">Project</a>
+                <div class="hidden lg:flex lg:gap-x-12">
+                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Home</a>
+                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">About</a>
+                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Education</a>
+                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Coursework</a>
+                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Project</a>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#" class="text-base font-semibold leading-6 text-gray-900">Contact Me <span aria-hidden="true">&rarr;</span></a>
+                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Contact Me <span aria-hidden="true">&rarr;</span></a>
                 </div>
             </nav>
         </header>
