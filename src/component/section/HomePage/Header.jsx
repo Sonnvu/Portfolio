@@ -1,14 +1,24 @@
-import logo from './Portfolio_Logo.jpeg';
+import logo from './Logo.png';
+import {Link, NavLink, useNavigate} from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
 
-export default function Header() { 
+export default function Header() {
+    const navigate = useNavigate();
+    const HandleClick = (path, id) => {
+        navigate(path);
+        setTimeout(() => {
+            document.getElementById(id).scrollIntoView({behavior: 'smooth'});
+        }, 0);
+    }
+
     return (
-        <header class="bg-white">
-            <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <header class="absolute inset-x-0 top-0 z-50">
+            <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8" aria-label="Global">
                 <div class="flex lg:flex-1">
-                    <a href="#" class="-m-1.5 p-1.5">
+                    <Link to="/Portfolio" class="-m-1.5 p-1.5">
                         <span class="sr-only">Your Company</span>
                         <img class="h-12 w-auto" src={logo} alt=""/>
-                    </a>
+                    </Link>
                 </div>
                 <div class="flex lg:hidden">
                     <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
@@ -19,10 +29,10 @@ export default function Header() {
                     </button>
                 </div>
                 <div class="hidden lg:flex lg:gap-x-12">
-                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Home</a>
-                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">About</a>
+                    <Link to="/Portfolio" class="text-base font-semibold leading-6 text-gray-700">Home</Link>
+                    <button onClick={() => HandleClick('/Portfolio/about', 'about')} class="text-base font-semibold leading-6 text-gray-700">About</button>
                     <a href="#" class="text-base font-semibold leading-6 text-gray-700">Education</a>
-                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Coursework</a>
+                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Experience</a>
                     <a href="#" class="text-base font-semibold leading-6 text-gray-700">Project</a>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
