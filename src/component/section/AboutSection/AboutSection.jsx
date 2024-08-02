@@ -13,15 +13,15 @@ export default function AboutSection() {
             id="about"
         >
             <div className="mt-4 p-6 mx-auto relative ">
-                <h1 className="lg:text-4xl font-black tracking-normal text-gray-700" >ABOUT ME</h1>
+                <h1 className="lg:text-4xl font-normal font-serif tracking-normal text-gray-700" >About</h1>
             </div>
             <div className="relative p-3 max-w-2xl text-center text-gray-700 mx-auto ">
-                <p className="font-semibold text-gray-500">
+                <p className="text-xl text-center font-normal text-gray-500">
                     I'm a rising senior studying Computer Engineering at the University of Pittsburgh.
                     With the background of Embedded and Software Engineering,
                     I aim to discover beautiful ways on how technology can improve our lives.
                 </p>
-                <p className="font-semibold text-gray-500">
+                <p className="font-semibold text-gray-500 p-3 mt-4">
                     Discover more about me below!
                 </p>
             </div>

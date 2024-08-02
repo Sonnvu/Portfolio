@@ -12,9 +12,11 @@ export default function HeroSection() {
                     <div className="flex flex-col justify-center items-center">
                         <div className="mt-10 pl-16 space-y-5">
                             <p className="text-lg font-semibold font-sans text-gray-500">Hi! My name is</p>
-                            <h1 className="text-5xl font-black tracking-normal text-gray-700">SON VU</h1>
+                            <h1 className="text-5xl font-extrabold  tracking-normal text-gray-700">SON VU</h1>
                             <DomainAnimation />
-                            <p className="text-lg font-semibold leading-6 text-gray-500">
+                            <p className="text-xl font-medium tracking-wide leading-6 text-gray-700 pr-">
+                                I'm a rising senior at the University of Pittsburgh pursuing a degree of 
+                                <span className="text-gray-800 font-bold"> Computer Enigneering</span>. 
                                 Welcome to my tinkering space where I showcase some of
                                 my recent projects from art to technology. Feel free to explore around!
                             </p>
