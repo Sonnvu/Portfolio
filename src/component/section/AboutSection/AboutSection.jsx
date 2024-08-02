@@ -4,22 +4,26 @@ import Project from  "./Project.jpg"
 import Sport from "./Sport.JPG"
 import Work from "./Work.jpg"
 import ClubOrg from "./ClubOrg.jpg"
+import {Fragment} from "react";
 
 export default function AboutSection() {
     return (
         <div
-            className="relative h-screen flex flex-col lg:px-8"
+            className="relative h-screen flex flex-col lg:px-8 bg-white bg-opacity-20"
             id="about"
         >
             <div className="mt-4 p-6 mx-auto relative ">
-                <h1 className="lg:text-4xl font-extrabold tracking-normal text-gray-700" >ABOUT ME</h1>
+                <h1 className="lg:text-4xl font-black tracking-normal text-gray-700" >ABOUT ME</h1>
             </div>
             <div className="relative p-3 max-w-2xl text-center text-gray-700 mx-auto ">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting,
-
+                <p className="font-semibold text-gray-500">
+                    I'm a rising senior studying Computer Engineering at the University of Pittsburgh.
+                    With the background of Embedded and Software Engineering,
+                    I aim to discover beautiful ways on how technology can improve our lives.
+                </p>
+                <p className="font-semibold text-gray-500">
+                    Discover more about me below!
+                </p>
             </div>
             <div className="relative flex flex-row h-screen items-center mx-5">
                 <Widget imgUrl={Project} bgColor="bg-purple-100">
@@ -35,7 +39,7 @@ export default function AboutSection() {
                     <h1 className="lg:text-2xl font-extrabold tracking-normal text-white z-10" >ART</h1>
                 </Widget>
                 <Widget imgUrl={ClubOrg} bgColor="bg-red-100">
-                    <h1 className="lg:text-2xl font-extrabold tracking-normal text-white z-10">Club & Organizations</h1>
+                    <h1 className="lg:text-2xl font-extrabold tracking-normal text-white z-10">CLUBS & ORGANIZATIONS</h1>
                 </Widget>
             </div>
         </div>
