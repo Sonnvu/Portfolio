@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
         title : ['Open Sans', 'sans-serif'],
+        'poppin' : ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
         'bgAbout': "url('./component/section/AboutSection/table_drawing.jpg')"

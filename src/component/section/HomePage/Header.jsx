@@ -1,16 +1,8 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import logo from './Logo.png';
-import {Link, NavLink, useNavigate} from "react-router-dom";
-import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
+import {Link, useNavigate} from "react-router-dom";
 
 export default function Header() {
-    const navigate = useNavigate();
-    const HandleClick = (path, id) => {
-        navigate(path);
-        setTimeout(() => {
-            document.getElementById(id).scrollIntoView({behavior: 'smooth'});
-        }, 0);
-    }
-
     return (
         <header class="absolute inset-x-0 top-0 z-50">
             <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8" aria-label="Global">
@@ -29,11 +21,10 @@ export default function Header() {
                     </button>
                 </div>
                 <div class="hidden lg:flex lg:gap-x-12">
-                    <Link to="/Portfolio" class="text-base font-semibold leading-6 text-gray-700">Home</Link>
-                    <button onClick={() => HandleClick('/Portfolio/about', 'about')} class="text-base font-semibold leading-6 text-gray-700">About</button>
+                    <Link to="/Portfolio" relative="path" class="text-base font-semibold leading-6 text-gray-700">Home</Link>
                     <a href="#" class="text-base font-semibold leading-6 text-gray-700">Education</a>
                     <a href="#" class="text-base font-semibold leading-6 text-gray-700">Experience</a>
-                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Project</a>
+                    <Link to="/Project" class="text-base font-semibold leading-6 text-gray-700">Project</Link>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                     <a href="#" class="text-base font-semibold leading-6 text-gray-700">Contact Me <span aria-hidden="true">&rarr;</span></a>
