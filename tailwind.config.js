@@ -9,6 +9,7 @@ module.exports = {
         'poppin' : ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
+        'bgAboutHoriz': "url('./component/section/AboutSection/table-drawing-horiz.jpg')",
         'bgAbout': "url('./component/section/AboutSection/table_drawing.jpg')"
       },
       animation: {

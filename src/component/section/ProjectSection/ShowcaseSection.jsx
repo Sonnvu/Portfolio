@@ -18,7 +18,7 @@ export default function ShowcaseSection() {
             />
             <ProjectCard
                 bgColor="bg-amber-50"
-                ProjectTitle="Budget Timular"
+                ProjectTitle="DIY Timular"
                 ProjectDescription="A productivity device that track time for each task depending
                                     on which face is up. Kind of like the Timular block, but cheaper 
                                     and no subscription tier list"

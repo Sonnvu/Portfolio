@@ -1,10 +1,10 @@
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import logo from './Logo.png';
-import {Link, useNavigate} from "react-router-dom";
+import {Link} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Header() {
     return (
-        <header class="absolute inset-x-0 top-0 z-50">
+        <header class="absolute bg-white inset-x-0 top-0 z-50">
             <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8" aria-label="Global">
                 <div class="flex lg:flex-1">
                     <Link to="/Portfolio" class="-m-1.5 p-1.5">
@@ -22,12 +22,12 @@ export default function Header() {
                 </div>
                 <div class="hidden lg:flex lg:gap-x-12">
                     <Link to="/Portfolio" relative="path" class="text-base font-semibold leading-6 text-gray-700">Home</Link>
-                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Education</a>
-                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Experience</a>
+                    <HashLink to="#education" class="text-base font-semibold leading-6 text-gray-700">Education</HashLink>
+                    <HashLink to="#experience" class="text-base font-semibold leading-6 text-gray-700">Experience</HashLink>
                     <Link to="/Project" class="text-base font-semibold leading-6 text-gray-700">Project</Link>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#" class="text-base font-semibold leading-6 text-gray-700">Contact Me <span aria-hidden="true">&rarr;</span></a>
+                    <HashLink to="#contact" class="text-base font-semibold leading-6 text-gray-700">Contact Me <span aria-hidden="true">&rarr;</span></HashLink>
                 </div>
             </nav>
         </header>
