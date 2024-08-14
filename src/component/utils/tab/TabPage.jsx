@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../../section/HomePage/Header'
 import TabComponent from './TabComponent'
 import BaseballTab from '../../page/SportPage/sportTabs/BaseballTab'
 import Frisbee from '../../page/SportPage/sportTabs/FrisbeeTab'
