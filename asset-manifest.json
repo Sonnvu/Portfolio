@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.94a1dd2c.css",
-    "main.js": "/Portfolio/static/js/main.1b73e7fe.js",
+    "main.css": "/Portfolio/static/css/main.d55bbcba.css",
+    "main.js": "/Portfolio/static/js/main.5c53e0b5.js",
     "static/media/ClubOrg.jpg": "/Portfolio/static/media/ClubOrg.c83c5574f14ca312c09c.jpg",
     "static/media/IMG_8692.jpg": "/Portfolio/static/media/IMG_8692.81502b30e787012d8f82.jpg",
     "static/media/IMG_2387.jpg": "/Portfolio/static/media/IMG_2387.ffabfe5a0f4fd21e8acd.jpg",
@@ -23,6 +23,7 @@
     "static/media/ProjectileMotion.png": "/Portfolio/static/media/ProjectileMotion.5e37bba8f63d497db218.png",
     "static/media/boxing1.JPG": "/Portfolio/static/media/boxing1.b9c068db173cac98047d.JPG",
     "static/media/IMG_0569.JPG": "/Portfolio/static/media/IMG_0569.9e9eb544d102a51c5a00.JPG",
+    "static/media/Pitt-Campus.jpg": "/Portfolio/static/media/Pitt-Campus.2c6ce6ddbfcfa5a3bb0f.jpg",
     "static/media/IMG_0400.jpg": "/Portfolio/static/media/IMG_0400.77eba866b636a99c9a34.jpg",
     "static/media/team.jpg": "/Portfolio/static/media/team.70c907cda11761cb8695.jpg",
     "static/media/holdcup.jpg": "/Portfolio/static/media/holdcup.d20921e6c764637eac29.jpg",
@@ -41,12 +42,13 @@
     "static/media/geto.jpg": "/Portfolio/static/media/geto.815732fccbeb6c79970e.jpg",
     "static/media/portraitman.JPG": "/Portfolio/static/media/portraitman.17b6d0bf8f30138b0d24.JPG",
     "static/media/table-drawing-horiz.jpg": "/Portfolio/static/media/table-drawing-horiz.4eed20e5329fe5fec88f.jpg",
+    "static/media/Son_Vu.pdf": "/Portfolio/static/media/Son_Vu.b9485eb50f115dd8c33d.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.94a1dd2c.css.map": "/Portfolio/static/css/main.94a1dd2c.css.map",
-    "main.1b73e7fe.js.map": "/Portfolio/static/js/main.1b73e7fe.js.map"
+    "main.d55bbcba.css.map": "/Portfolio/static/css/main.d55bbcba.css.map",
+    "main.5c53e0b5.js.map": "/Portfolio/static/js/main.5c53e0b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.94a1dd2c.css",
-    "static/js/main.1b73e7fe.js"
+    "static/css/main.d55bbcba.css",
+    "static/js/main.5c53e0b5.js"
   ]
 }
