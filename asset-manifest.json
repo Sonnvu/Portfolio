@@ -1,27 +1,35 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c5186c10.css",
-    "main.js": "/Portfolio/static/js/main.33480bfc.js",
+    "main.css": "/Portfolio/static/css/main.82558bab.css",
+    "main.js": "/Portfolio/static/js/main.6cc635ac.js",
     "static/media/ClubOrg.jpg": "/Portfolio/static/media/ClubOrg.c83c5574f14ca312c09c.jpg",
     "static/media/Project.jpg": "/Portfolio/static/media/Project.ad2259bb8bef0c9550b9.jpg",
     "static/media/Sport.JPG": "/Portfolio/static/media/Sport.2294863484ebeac01b10.JPG",
+    "static/media/coaching.jpg": "/Portfolio/static/media/coaching.2294863484ebeac01b10.jpg",
     "static/media/Soldering.gif": "/Portfolio/static/media/Soldering.e6703e053d18be6d12f3.gif",
     "static/media/table_drawing.jpg": "/Portfolio/static/media/table_drawing.cd1d800de575a22ac8aa.jpg",
+    "static/media/capitals.jpg": "/Portfolio/static/media/capitals.954b56ca58b9797d4680.jpg",
     "static/media/ProjectileMotion.png": "/Portfolio/static/media/ProjectileMotion.5e37bba8f63d497db218.png",
+    "static/media/team.jpg": "/Portfolio/static/media/team.70c907cda11761cb8695.jpg",
+    "static/media/holdcup.jpg": "/Portfolio/static/media/holdcup.d20921e6c764637eac29.jpg",
+    "static/media/jumping.jpg": "/Portfolio/static/media/jumping.0b03ef663353389cb583.jpg",
     "static/media/game.jpg": "/Portfolio/static/media/game.e9ba6d62522296f2c274.jpg",
     "static/media/Work.jpg": "/Portfolio/static/media/Work.f800589f268eb1f3fa7c.jpg",
     "static/media/portfolio.png": "/Portfolio/static/media/portfolio.d55255f739463daa9854.png",
     "static/media/cpu.png": "/Portfolio/static/media/cpu.8264dd3224229aa3d1d7.png",
+    "static/media/batting.jpg": "/Portfolio/static/media/batting.6099b53fce9011d8715e.jpg",
+    "static/media/walking.jpg": "/Portfolio/static/media/walking.664d0974cdb00dbefe45.jpg",
     "static/media/Logo.png": "/Portfolio/static/media/Logo.3a962c75ea1334f8bfdf.png",
     "static/media/timular.png": "/Portfolio/static/media/timular.08145a63ddcc8c6521a8.png",
+    "static/media/huddle.jpg": "/Portfolio/static/media/huddle.00d02c7611bb85def82f.jpg",
     "static/media/jobscope.png": "/Portfolio/static/media/jobscope.8cff8ec4deb4f37ba17b.png",
     "static/media/table-drawing-horiz.jpg": "/Portfolio/static/media/table-drawing-horiz.4eed20e5329fe5fec88f.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.c5186c10.css.map": "/Portfolio/static/css/main.c5186c10.css.map",
-    "main.33480bfc.js.map": "/Portfolio/static/js/main.33480bfc.js.map"
+    "main.82558bab.css.map": "/Portfolio/static/css/main.82558bab.css.map",
+    "main.6cc635ac.js.map": "/Portfolio/static/js/main.6cc635ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5186c10.css",
-    "static/js/main.33480bfc.js"
+    "static/css/main.82558bab.css",
+    "static/js/main.6cc635ac.js"
   ]
 }
