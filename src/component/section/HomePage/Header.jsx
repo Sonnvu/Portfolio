@@ -24,7 +24,7 @@ export default function Header() {
                     <Link to="/Portfolio" relative="path" class="text-base font-semibold leading-6 text-gray-700"
                     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</Link>
                     <Link to="/Portfolio#about" class="text-base font-semibold leading-6 text-gray-700">About</Link>
-                    <HashLink to="#education" class="text-base font-semibold leading-6 text-gray-700">Education</HashLink>
+                    <Link to="/Portfolio#education" class="text-base font-semibold leading-6 text-gray-700">Education</Link>
                     <Link to="/Portfolio#experience" class="text-base font-semibold leading-6 text-gray-700">Experience</Link>
                     <Link to="/Project" class="text-base font-semibold leading-6 text-gray-700">Project</Link>
                 </div>

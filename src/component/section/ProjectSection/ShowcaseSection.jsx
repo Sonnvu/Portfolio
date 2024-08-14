@@ -6,11 +6,24 @@ import physicsSim from "./ProjectileMotion.png"
 import cpu from "./cpu.png"
 import portfolio from "./portfolio.png"
 import SkillTag from "../../utils/animation/card/SkillTag";
+import {useLocation} from "react-router-dom";
+import {useEffect} from "react";
 
 export default function ShowcaseSection() {
+    const location = useLocation();
+    useEffect(() => {
+        if (location.hash) {
+            const targetElement = document.querySelector(location.hash);
+            if (targetElement) {
+                targetElement.scrollIntoView({behavior: 'smooth'})
+            }
+        }
+    }, [location])
+
     return (
         <div className="px-10 relative flex lg:flex-row md:flex-wrap sm:flex-col justify-center bg-slate-50">
-            <ProjectCard 
+            <ProjectCard
+                id="jobscope"
                 bgColor="bg-blue-50"
                 ProjectTitle="JobScope"
                 ProjectDescription="Platform that helps student gain insights into the job market 
@@ -33,6 +46,7 @@ export default function ShowcaseSection() {
                 </div>
             </ProjectCard>
             <ProjectCard
+                id="timular"
                 bgColor="bg-amber-50"
                 ProjectTitle="DIY Timular"
                 ProjectDescription="A productivity device that track time for each task depending
@@ -56,6 +70,7 @@ export default function ShowcaseSection() {
                 </div>
             </ProjectCard>
             <ProjectCard
+                id="portfolio"
                 bgColor="bg-purple-50"
                 ProjectTitle="Digital Portfolio"
                 ProjectDescription="A productivity device that track time for each task depending
@@ -74,6 +89,7 @@ export default function ShowcaseSection() {
                 </div>
             </ProjectCard>
             <ProjectCard
+                id="gameConsole"
                 bgColor="bg-red-50"
                 ProjectTitle="Simple Game Console"
                 ProjectDescription="Simple Game Console with just one programmed soccer game with
@@ -89,6 +105,7 @@ export default function ShowcaseSection() {
                 </div>
             </ProjectCard>
             <ProjectCard
+                id="cpu"
                 bgColor="bg-green-50"
                 ProjectTitle="32-bits MIPS CPU"
                 ProjectDescription="A 32-bit multi-cycled CPU based on MIPS32 instruction set architecture connected from 
@@ -106,6 +123,7 @@ export default function ShowcaseSection() {
                 </div>
             </ProjectCard>
             <ProjectCard
+                id="physicsSim"
                 bgColor="bg-red-50"
                 ProjectTitle="Computational Physics Simulation"
                 ProjectDescription="Jupyter Notebook collection contains many physics models and simulation

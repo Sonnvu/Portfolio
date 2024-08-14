@@ -1,6 +1,7 @@
 import animation from "./Soldering.gif"
 import DomainAnimation from "../../../utils/animation/text/DomainAnimation";
 import { HashLink } from "react-router-hash-link";
+import resume from "./Son_Vu.pdf"
 
 export default function HeroSection() {
     return (
@@ -18,7 +19,7 @@ export default function HeroSection() {
                                 my recent projects from art to technology. Feel free to explore around!
                             </p>
                             <div className="flex items-center gap-x-6">
-                                <a href="#dude"
+                                <a href={resume} target="_blank" rel="noreferrer"
                                    className="rounded-xl bg-yellow-400 px-14 py-3 text-sm font-semibold text-white shadow-sm hover:bg-amber-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">RESUME</a>
                                 <HashLink to="#about" className="text-sm font-semibold leading-8 text-gray-900">Discover What I Do<span
                                     aria-hidden="true"> →</span></HashLink>

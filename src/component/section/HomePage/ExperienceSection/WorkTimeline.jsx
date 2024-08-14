@@ -13,7 +13,7 @@ export default function WorkTimeline() {
                     <div class="w-full flex flex-col">
 
                         {/* <!-- Item #1 --> */}
-                        <div class="relative pl-8 sm:pl-32 py-6 group">
+                        <div id="philips" class="relative pl-8 sm:pl-32 py-6 group">
                             {/* <!-- Purple label --> */}
                             <div class="font-medium text-yellow-400 mb-1 sm:mb-0">Software Engineer Co-op</div>
                             {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
@@ -31,7 +31,7 @@ export default function WorkTimeline() {
                         </div>
                         
                         {/* <!-- Item #2 --> */}
-                        <div class="relative pl-8 sm:pl-32 py-6 group">
+                        <div id="shrec" class="relative pl-8 sm:pl-32 py-6 group">
                             {/* <!-- Purple label --> */}
                             <div class="font-medium text-yellow-400 mb-1 sm:mb-0">Research Assistant</div>
                             {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}

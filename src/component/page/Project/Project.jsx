@@ -1,7 +1,19 @@
 import Header from "../../section/HomePage/Header";
 import ShowcaseSection from "../../section/ProjectSection/ShowcaseSection";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Project() {
+    const location = useLocation();
+    useEffect(() => {
+        if(location.hash) {
+            const targetElement = document.querySelector(location.hash);
+            if(targetElement) {
+                targetElement.scrollIntoView({behavior:'smooth'})
+            }
+        }
+    }, [location])
+
     return (
         <div>
             <Header />

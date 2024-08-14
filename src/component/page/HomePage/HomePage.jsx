@@ -5,10 +5,10 @@ import ExperienceSection from "../../section/HomePage/ExperienceSection/Experien
 import { ScrollToTopDefault } from "../../utils/helper/ScrollToTopDefault";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import EducationSection from "../../section/HomePage/EducationSection/EducationSection";
 
 export default function HomePage() {
     const location = useLocation();
-
     useEffect(() => {
         if(location.hash) {
             const targetElement = document.querySelector(location.hash);
@@ -24,6 +24,7 @@ export default function HomePage() {
             <HeroSection />
             <AboutSection />
             <ExperienceSection />
+            <EducationSection />
             <ScrollToTopDefault />
         </div>
     )
