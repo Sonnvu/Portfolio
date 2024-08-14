@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d55bbcba.css",
-    "main.js": "/Portfolio/static/js/main.5c53e0b5.js",
+    "main.css": "/Portfolio/static/css/main.bc2f28e5.css",
+    "main.js": "/Portfolio/static/js/main.49eb466e.js",
     "static/media/ClubOrg.jpg": "/Portfolio/static/media/ClubOrg.c83c5574f14ca312c09c.jpg",
     "static/media/IMG_8692.jpg": "/Portfolio/static/media/IMG_8692.81502b30e787012d8f82.jpg",
     "static/media/IMG_2387.jpg": "/Portfolio/static/media/IMG_2387.ffabfe5a0f4fd21e8acd.jpg",
@@ -44,11 +44,11 @@
     "static/media/table-drawing-horiz.jpg": "/Portfolio/static/media/table-drawing-horiz.4eed20e5329fe5fec88f.jpg",
     "static/media/Son_Vu.pdf": "/Portfolio/static/media/Son_Vu.b9485eb50f115dd8c33d.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.d55bbcba.css.map": "/Portfolio/static/css/main.d55bbcba.css.map",
-    "main.5c53e0b5.js.map": "/Portfolio/static/js/main.5c53e0b5.js.map"
+    "main.bc2f28e5.css.map": "/Portfolio/static/css/main.bc2f28e5.css.map",
+    "main.49eb466e.js.map": "/Portfolio/static/js/main.49eb466e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d55bbcba.css",
-    "static/js/main.5c53e0b5.js"
+    "static/css/main.bc2f28e5.css",
+    "static/js/main.49eb466e.js"
   ]
 }
