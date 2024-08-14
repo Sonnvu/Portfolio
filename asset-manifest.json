@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.82558bab.css",
-    "main.js": "/Portfolio/static/js/main.6cc635ac.js",
+    "main.css": "/Portfolio/static/css/main.94a1dd2c.css",
+    "main.js": "/Portfolio/static/js/main.85fc95f5.js",
     "static/media/ClubOrg.jpg": "/Portfolio/static/media/ClubOrg.c83c5574f14ca312c09c.jpg",
+    "static/media/IMG_8692.jpg": "/Portfolio/static/media/IMG_8692.81502b30e787012d8f82.jpg",
+    "static/media/IMG_2387.jpg": "/Portfolio/static/media/IMG_2387.ffabfe5a0f4fd21e8acd.jpg",
     "static/media/Project.jpg": "/Portfolio/static/media/Project.ad2259bb8bef0c9550b9.jpg",
+    "static/media/rmithuddle.jpg": "/Portfolio/static/media/rmithuddle.5cff13f924512cb67986.jpg",
+    "static/media/frisbee4.jpg": "/Portfolio/static/media/frisbee4.884ce9f4bc5c9ccb7c8f.jpg",
     "static/media/Sport.JPG": "/Portfolio/static/media/Sport.2294863484ebeac01b10.JPG",
     "static/media/coaching.jpg": "/Portfolio/static/media/coaching.2294863484ebeac01b10.jpg",
+    "static/media/frisbee2.jpg": "/Portfolio/static/media/frisbee2.404840d7cf60db8f9084.jpg",
+    "static/media/rmitfulbright.jpg": "/Portfolio/static/media/rmitfulbright.560f8ed220b9f2fee2c3.jpg",
     "static/media/Soldering.gif": "/Portfolio/static/media/Soldering.e6703e053d18be6d12f3.gif",
+    "static/media/frisbee3.jpg": "/Portfolio/static/media/frisbee3.29f92cbd22b58800aaaf.jpg",
     "static/media/table_drawing.jpg": "/Portfolio/static/media/table_drawing.cd1d800de575a22ac8aa.jpg",
+    "static/media/dynamicpose.jpg": "/Portfolio/static/media/dynamicpose.cc5ec05ae1731eb3c066.jpg",
     "static/media/capitals.jpg": "/Portfolio/static/media/capitals.954b56ca58b9797d4680.jpg",
+    "static/media/boxingCorner.JPG": "/Portfolio/static/media/boxingCorner.9a336a4ba915b248c713.JPG",
+    "static/media/portraitwoman.jpg": "/Portfolio/static/media/portraitwoman.9d486cde2c28c118dad0.jpg",
+    "static/media/pose2.jpg": "/Portfolio/static/media/pose2.721fca1b2b73006846af.jpg",
     "static/media/ProjectileMotion.png": "/Portfolio/static/media/ProjectileMotion.5e37bba8f63d497db218.png",
+    "static/media/boxing1.JPG": "/Portfolio/static/media/boxing1.b9c068db173cac98047d.JPG",
+    "static/media/IMG_0569.JPG": "/Portfolio/static/media/IMG_0569.9e9eb544d102a51c5a00.JPG",
+    "static/media/IMG_0400.jpg": "/Portfolio/static/media/IMG_0400.77eba866b636a99c9a34.jpg",
     "static/media/team.jpg": "/Portfolio/static/media/team.70c907cda11761cb8695.jpg",
     "static/media/holdcup.jpg": "/Portfolio/static/media/holdcup.d20921e6c764637eac29.jpg",
     "static/media/jumping.jpg": "/Portfolio/static/media/jumping.0b03ef663353389cb583.jpg",
@@ -17,19 +31,22 @@
     "static/media/Work.jpg": "/Portfolio/static/media/Work.f800589f268eb1f3fa7c.jpg",
     "static/media/portfolio.png": "/Portfolio/static/media/portfolio.d55255f739463daa9854.png",
     "static/media/cpu.png": "/Portfolio/static/media/cpu.8264dd3224229aa3d1d7.png",
+    "static/media/863FC167-1D92-4E6E-BD96-C8A66B0D41AC.JPEG": "/Portfolio/static/media/863FC167-1D92-4E6E-BD96-C8A66B0D41AC.e0db97f0f33f470f4eaf.JPEG",
     "static/media/batting.jpg": "/Portfolio/static/media/batting.6099b53fce9011d8715e.jpg",
     "static/media/walking.jpg": "/Portfolio/static/media/walking.664d0974cdb00dbefe45.jpg",
     "static/media/Logo.png": "/Portfolio/static/media/Logo.3a962c75ea1334f8bfdf.png",
     "static/media/timular.png": "/Portfolio/static/media/timular.08145a63ddcc8c6521a8.png",
     "static/media/huddle.jpg": "/Portfolio/static/media/huddle.00d02c7611bb85def82f.jpg",
     "static/media/jobscope.png": "/Portfolio/static/media/jobscope.8cff8ec4deb4f37ba17b.png",
+    "static/media/geto.jpg": "/Portfolio/static/media/geto.815732fccbeb6c79970e.jpg",
+    "static/media/portraitman.JPG": "/Portfolio/static/media/portraitman.17b6d0bf8f30138b0d24.JPG",
     "static/media/table-drawing-horiz.jpg": "/Portfolio/static/media/table-drawing-horiz.4eed20e5329fe5fec88f.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.82558bab.css.map": "/Portfolio/static/css/main.82558bab.css.map",
-    "main.6cc635ac.js.map": "/Portfolio/static/js/main.6cc635ac.js.map"
+    "main.94a1dd2c.css.map": "/Portfolio/static/css/main.94a1dd2c.css.map",
+    "main.85fc95f5.js.map": "/Portfolio/static/js/main.85fc95f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.82558bab.css",
-    "static/js/main.6cc635ac.js"
+    "static/css/main.94a1dd2c.css",
+    "static/js/main.85fc95f5.js"
   ]
 }
