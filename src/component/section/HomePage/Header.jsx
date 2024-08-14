@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 
 export default function Header() {
     return (
-        <header class="absolute bg-white inset-x-0 top-0 z-50">
+        <header class="sticky bg-white inset-x-0 top-0 z-50">
             <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8" aria-label="Global">
                 <div class="flex lg:flex-1">
                     <Link to="/Portfolio" class="-m-1.5 p-1.5">
@@ -21,9 +21,11 @@ export default function Header() {
                     </button>
                 </div>
                 <div class="hidden lg:flex lg:gap-x-12">
-                    <Link to="/Portfolio" relative="path" class="text-base font-semibold leading-6 text-gray-700">Home</Link>
+                    <Link to="/Portfolio" relative="path" class="text-base font-semibold leading-6 text-gray-700"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</Link>
+                    <Link to="/Portfolio#about" class="text-base font-semibold leading-6 text-gray-700">About</Link>
                     <HashLink to="#education" class="text-base font-semibold leading-6 text-gray-700">Education</HashLink>
-                    <HashLink to="#experience" class="text-base font-semibold leading-6 text-gray-700">Experience</HashLink>
+                    <Link to="/Portfolio#experience" class="text-base font-semibold leading-6 text-gray-700">Experience</Link>
                     <Link to="/Project" class="text-base font-semibold leading-6 text-gray-700">Project</Link>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">

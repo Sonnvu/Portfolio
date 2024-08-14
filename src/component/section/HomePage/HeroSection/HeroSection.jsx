@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 
 export default function HeroSection() {
     return (
-            <div class="relative flex isolate lg:px-8 items-center mx-auto my-auto h-screen bg-slate-50">
+            <div class="relative flex isolate lg:px-8 items-center mx-auto my-auto h-[700px] bg-slate-50">
                 {/* <div class="absolute inset-x-30 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
                     <div class="relative left-[calc(90%-11rem)] aspect-[1200/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff8080] to-[#fcdd89] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem] "></div>
                 </div> */}

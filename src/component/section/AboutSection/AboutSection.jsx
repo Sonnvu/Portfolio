@@ -40,10 +40,12 @@ export default function AboutSection() {
                 <Widget imgUrl={Project} bgColor="bg-blue-200" linkTo="/Project">
                     <h1 className="lg:text-2xl font-extrabold tracking-normal text-white z-10" >PROJECT</h1>
                 </Widget>
-                <Widget imgUrl={Work} bgColor="bg-amber-100">
+                
+                <Widget imgUrl={Work} bgColor="bg-amber-100" linkTo="#experience">
                     <h1 className="lg:text-2xl font-extrabold tracking-normal text-white z-10" >WORK</h1>
                 </Widget>
-                <Widget imgUrl={Sport} bgColor="bg-orange-200">
+
+                <Widget imgUrl={Sport} bgColor="bg-orange-200" linkTo="/sport">
                     <h1 className="lg:text-2xl font-extrabold tracking-normal text-white z-10">SPORT</h1>
                 </Widget>
                 <Widget imgUrl={Art} bgColor="bg-rose-200">

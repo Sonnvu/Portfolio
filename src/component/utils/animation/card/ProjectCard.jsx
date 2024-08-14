@@ -9,8 +9,9 @@ export default function ProjectCard({children, ProjectTitle, ProjectDescription,
                     <img className="rounded-2xl" src={imgUrl} alt="" />
                 </div>
             </div> 
-            <div className="relative justify-start mt-5 space-y-2">
+            <div className="relative justify-start mt-5">
                 <h1 className="text-2xl font-poppin font-medium text-gray-700">{ProjectTitle}</h1>
+                {children}
                 <p className="font-poppin text-gray-500">
                     {ProjectDescription}
                 </p>

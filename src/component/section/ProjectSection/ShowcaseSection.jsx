@@ -5,6 +5,7 @@ import timular from "./timular.png"
 import physicsSim from "./ProjectileMotion.png"
 import cpu from "./cpu.png"
 import portfolio from "./portfolio.png"
+import SkillTag from "../../utils/animation/card/SkillTag";
 
 export default function ShowcaseSection() {
     return (
@@ -15,7 +16,22 @@ export default function ShowcaseSection() {
                 ProjectDescription="Platform that helps student gain insights into the job market 
                                     to trajectorize career paths and maximize employability"
                 imgUrl={jobscope}
-            />
+            >
+                <div className="pt-1 pb-3 -ml-2">
+                    <SkillTag>Java</SkillTag>
+                    <SkillTag>Spring Boot</SkillTag>
+                    <SkillTag>Spring Security</SkillTag>
+                    <SkillTag>JavaScript</SkillTag>
+                    <SkillTag>React.js</SkillTag>
+                    <SkillTag>MUI</SkillTag>
+                    <SkillTag>Tailwind</SkillTag>
+                    <SkillTag>GitHub</SkillTag>
+                    <SkillTag>AWS EC2</SkillTag>
+                    <SkillTag>Nginx</SkillTag>
+                    <SkillTag>PostgreSQL</SkillTag>
+                    <SkillTag>Git</SkillTag>
+                </div>
+            </ProjectCard>
             <ProjectCard
                 bgColor="bg-amber-50"
                 ProjectTitle="DIY Timular"
@@ -24,7 +40,21 @@ export default function ShowcaseSection() {
                                     and no subscription tier list"
                 imgUrl={timular}
                 github={"https://github.com/Sonnvu/Time_Block"}
-            />
+            >
+                <div className="pt-1 pb-3 -ml-2">
+                    <SkillTag>C++</SkillTag>
+                    <SkillTag>ESP-WROOM-32</SkillTag>
+                    <SkillTag>MPU-6050</SkillTag>
+                    <SkillTag>Altium</SkillTag>
+                    <SkillTag>JavaScripts</SkillTag>
+                    <SkillTag>React.js</SkillTag>
+                    <SkillTag>AWS IoT Core</SkillTag>
+                    <SkillTag>AWS API Gateway</SkillTag>
+                    <SkillTag>AWS S3 Bucket</SkillTag>
+                    <SkillTag>Git</SkillTag>
+                    
+                </div>
+            </ProjectCard>
             <ProjectCard
                 bgColor="bg-purple-50"
                 ProjectTitle="Digital Portfolio"
@@ -33,14 +63,31 @@ export default function ShowcaseSection() {
                                     and no subscription tier list"
                 imgUrl={portfolio}
                 github={"https://github.com/Sonnvu/Time_Block"}
-            />
+            >
+                <div className="pt-1 pb-3 -ml-2">
+                    <SkillTag>JavaScript</SkillTag>
+                    <SkillTag>React.js</SkillTag>
+                    <SkillTag>Tailwind</SkillTag>
+                    <SkillTag>Git</SkillTag>
+                    <SkillTag>GitHub Action</SkillTag>
+                    
+                </div>
+            </ProjectCard>
             <ProjectCard
                 bgColor="bg-red-50"
                 ProjectTitle="Simple Game Console"
                 ProjectDescription="Simple Game Console with just one programmed soccer game with
                                     our main character: our lovely ECE Head Department Professor"
                 imgUrl={gameConsole}
-            />
+            >
+                <div className="pt-1 pb-3 -ml-2">
+                    <SkillTag>C++</SkillTag>
+                    <SkillTag>Altium</SkillTag>
+                    <SkillTag>Soldering</SkillTag>
+                    <SkillTag>Git</SkillTag>
+                    
+                </div>
+            </ProjectCard>
             <ProjectCard
                 bgColor="bg-green-50"
                 ProjectTitle="32-bits MIPS CPU"
@@ -49,7 +96,15 @@ export default function ShowcaseSection() {
                                     Multiplier, Control unit and many registers "
                 imgUrl={cpu}
                 github={"https://github.com/Sonnvu/Time_Block"}
-            />
+            >
+                <div className="pt-1 pb-3 -ml-2">
+                    <SkillTag>C/C++</SkillTag>
+                    <SkillTag>VHDL</SkillTag>
+                    <SkillTag>Xilinx Vivado</SkillTag>
+                    <SkillTag>Git</SkillTag>
+                    
+                </div>
+            </ProjectCard>
             <ProjectCard
                 bgColor="bg-red-50"
                 ProjectTitle="Computational Physics Simulation"
@@ -57,7 +112,15 @@ export default function ShowcaseSection() {
                                     that visualize physical behavior and theories"
                 imgUrl={physicsSim}
                 github={"https://github.com/Sonnvu/Vpython_Simulation"}
-            />
+            >
+                <div className="pt-1 pb-3 -ml-2">
+                    <SkillTag>Python</SkillTag>
+                    <SkillTag>Vpython</SkillTag>
+                    <SkillTag>Jupyter Notebook</SkillTag>
+                    <SkillTag>Anaconda</SkillTag>
+                    <SkillTag>Git</SkillTag>         
+                </div>
+            </ProjectCard>
         </div>
     )
 }
