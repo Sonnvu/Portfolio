@@ -40,7 +40,7 @@ const items = [
         title: "Skateboard", 
         content: (
             <div className='h-32 bg-red-50'>
-                gay
+                wip
             </div>
         ),
     },
