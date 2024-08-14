@@ -48,7 +48,7 @@ export default function AboutSection() {
                 <Widget imgUrl={Sport} bgColor="bg-orange-200" linkTo="/sport">
                     <h1 className="lg:text-2xl font-extrabold tracking-normal text-white z-10">SPORT</h1>
                 </Widget>
-                <Widget imgUrl={Art} bgColor="bg-rose-200">
+                <Widget imgUrl={Art} bgColor="bg-rose-200" linkTo="/art">
                     <h1 className="lg:text-2xl font-extrabold tracking-normal text-white z-10" >ART</h1>
                 </Widget>
                 <Widget imgUrl={ClubOrg} bgColor="bg-violet-200">

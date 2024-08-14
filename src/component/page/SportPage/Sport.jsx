@@ -3,7 +3,7 @@ import TabPage from '../../utils/tab/TabPage'
 
 export default function Sport() {
   return (
-    <div id="#sport">
+    <div id="sport">
         <Header />
         <div className="relative flex flex-col">
                 <div className="p-16 space-y-1 lg:pl-40 bg-slate-100">

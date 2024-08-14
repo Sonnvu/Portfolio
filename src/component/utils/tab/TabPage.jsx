@@ -1,7 +1,8 @@
 import React from 'react'
 import TabComponent from './TabComponent'
 import BaseballTab from '../../page/SportPage/sportTabs/BaseballTab'
-import Frisbee from '../../page/SportPage/sportTabs/FrisbeeTab'
+import FrisbeeTab from "../../page/SportPage/sportTabs/FrisbeeTab";
+import BoxingTab from "../../page/SportPage/sportTabs/BoxingTab";
 
 export default function TabPage() {
   return (
@@ -26,15 +27,13 @@ const items = [
     {
         title: "Ultimate Frisbee", 
         content: (
-            <Frisbee />
+            <FrisbeeTab />
         ),
     },
     {
         title: "Boxing", 
         content: (
-            <div className='h-32 bg-red-50'>
-                gay
-            </div>
+            <BoxingTab />
         ),
     },
     {
