@@ -1,6 +1,5 @@
 import logo from './Logo.png';
 import {Link} from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
 
 export default function Header() {
     return (
@@ -29,7 +28,7 @@ export default function Header() {
                     <Link to="/Project" class="text-base font-semibold leading-6 text-gray-700">Project</Link>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <HashLink to="#contact" class="text-base font-semibold leading-6 text-gray-700">Contact Me <span aria-hidden="true">&rarr;</span></HashLink>
+                    <Link to="/Portfolio#contact" class="text-base font-semibold leading-6 text-gray-700">Contact Me <span aria-hidden="true">&rarr;</span></Link>
                 </div>
             </nav>
         </header>

@@ -6,6 +6,8 @@ import { ScrollToTopDefault } from "../../utils/helper/ScrollToTopDefault";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import EducationSection from "../../section/HomePage/EducationSection/EducationSection";
+import ContactSection from "../../section/HomePage/ContactSection/ContactSection";
+import Footer from "../../section/HomePage/Footer/Footer";
 
 export default function HomePage() {
     const location = useLocation();
@@ -25,6 +27,8 @@ export default function HomePage() {
             <AboutSection />
             <ExperienceSection />
             <EducationSection />
+            <ContactSection />
+            <Footer />
             <ScrollToTopDefault />
         </div>
     )
