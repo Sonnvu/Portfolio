@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { twMerge } from "tailwind-merge"
 
 export default function ProjectCard({children, ProjectTitle, ProjectDescription, bgColor, imgUrl, github, id}) {
@@ -17,7 +16,7 @@ export default function ProjectCard({children, ProjectTitle, ProjectDescription,
                 </p>
             </div>
             <div className="relative mt-5">
-                <Link to={github} class="text-base font-semibold leading-6 text-gray-700">GitHub <span aria-hidden="true">&rarr;</span></Link>
+                <a href={github} target="_blank" rel="noreferrer" class="text-base font-semibold leading-6 text-gray-700">GitHub <span aria-hidden="true">&rarr;</span></a>
             </div>
         </div>
     )
