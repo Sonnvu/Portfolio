@@ -1,15 +1,16 @@
 import { twMerge } from "tailwind-merge"
 
-export default function ProjectCard({children, ProjectTitle, ProjectDescription, bgColor, imgUrl, github, id}) {
+export default function ProjectCard({children, ProjectTitle, ProjectDescription, bgColor, imgUrl, github, id, pageUrl}) {
     return (
         <div id={id} className="m-10 relative flex flex-col lg:w-1/4 w-1/3 p-7 rounded-3xl bg-white">
-            <div className={twMerge("relative rounded-3xl flex justify-center items-center w-full h-72", bgColor)}>
+            <a  href={pageUrl} target="_blank" rel="noreferrer"
+                className={twMerge("relative rounded-3xl flex justify-center items-center w-full h-72", bgColor)}>
                 <div className="relative m-5 drop-shadow-lg max-h-52 object-contain overflow-hidden rounded-3xl">
                     <img className="rounded-2xl" src={imgUrl} alt="" />
                 </div>
-            </div> 
+            </a>
             <div className="relative justify-start mt-5">
-                <h1 className="text-2xl font-poppin font-medium text-gray-700">{ProjectTitle}</h1>
+                <a href={pageUrl} target="_blank" rel="noreferrer" className="text-2xl font-poppin font-medium text-gray-700">{ProjectTitle}</a>
                 {children}
                 <p className="font-poppin text-gray-500">
                     {ProjectDescription}

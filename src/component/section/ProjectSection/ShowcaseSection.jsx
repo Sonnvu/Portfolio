@@ -29,7 +29,8 @@ export default function ShowcaseSection() {
                 ProjectDescription="Platform that helps student gain insights into the job market 
                                     to trajectorize career paths and maximize employability"
                 imgUrl={jobscope}
-                github="https://sonnvu.github.io/jobscope-ui-v1"
+                github="https://sonnvu.github.io/JobScope_Prototype1/"
+                pageUrl="https://sonnvu.github.io/jobscope-ui-v1/"
             >
                 <div className="pt-1 pb-3 -ml-2">
                     <SkillTag>Java</SkillTag>
@@ -79,6 +80,7 @@ export default function ShowcaseSection() {
                                     and no subscription tier list"
                 imgUrl={portfolio}
                 github={"https://github.com/Sonnvu/Portfolio"}
+                pageUrl={"https://sonnvu.github.io/Portfolio"}
             >
                 <div className="pt-1 pb-3 -ml-2">
                     <SkillTag>JavaScript</SkillTag>
