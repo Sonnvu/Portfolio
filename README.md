@@ -1,6 +1,6 @@
 # Digital Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed in JavaScript with React.js framework and styling with Tailwindcss
 
 ## Available Scripts
 
