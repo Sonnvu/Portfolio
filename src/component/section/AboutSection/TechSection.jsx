@@ -36,7 +36,6 @@ export default function TechSection() {
                         <SkillTag linkTo="/Project#jobscope">SLF4J</SkillTag>
                     </div>
                 </div>
-
                 <div className="flex flex-col">
                     <div className="text-gray-500 font-poppin pl-2 py-2">
                         Database
@@ -53,6 +52,7 @@ export default function TechSection() {
                     <div className="text-gray-500 font-poppin pl-2 py-2">
                         Tools & Services
                     </div>
+                    <div id="whatIdo"></div>
                     <div>
                         <SkillTag linkTo="/Portfolio#philips">GitHub</SkillTag>
                         <SkillTag linkTo="/Portfolio#philips">Docker</SkillTag>
@@ -62,6 +62,7 @@ export default function TechSection() {
                         <SkillTag linkTo="/Project#jobscope">AWS 53</SkillTag>
                         <SkillTag linkTo="/Project#jobscope">ProxyCurl</SkillTag>
                     </div>
+                    
                 </div>
 
 
