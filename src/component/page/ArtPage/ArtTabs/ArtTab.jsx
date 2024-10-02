@@ -9,7 +9,7 @@ import bottles from './img/bottles.jpg'
 
 export default function ArtTab() {
     return (
-        <div className='grid grid-cols-2 gap-10 mx-32 px-52 pt-20'>
+        <div className='grid grid-cols-2 gap-10 px-52 pt-20'>
             <img src={hallway} alt=""/>
             <img src={still} alt=""/>
             <img src={bottles} alt=""/>
