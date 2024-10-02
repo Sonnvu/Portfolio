@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0c8e66c4.css",
-    "main.js": "/Portfolio/static/js/main.f82dd278.js",
+    "main.css": "/Portfolio/static/css/main.29289b78.css",
+    "main.js": "/Portfolio/static/js/main.cda9e460.js",
     "static/media/ClubOrg.jpg": "/Portfolio/static/media/ClubOrg.c83c5574f14ca312c09c.jpg",
     "static/media/IMG_8692.jpg": "/Portfolio/static/media/IMG_8692.81502b30e787012d8f82.jpg",
     "static/media/IMG_2387.jpg": "/Portfolio/static/media/IMG_2387.ffabfe5a0f4fd21e8acd.jpg",
@@ -42,13 +42,14 @@
     "static/media/geto.jpg": "/Portfolio/static/media/geto.815732fccbeb6c79970e.jpg",
     "static/media/portraitman.JPG": "/Portfolio/static/media/portraitman.17b6d0bf8f30138b0d24.JPG",
     "static/media/table-drawing-horiz.jpg": "/Portfolio/static/media/table-drawing-horiz.4eed20e5329fe5fec88f.jpg",
+    "static/media/gms.png": "/Portfolio/static/media/gms.b5aed45014a91d04a93e.png",
     "static/media/Son_Vu.pdf": "/Portfolio/static/media/Son_Vu.b9485eb50f115dd8c33d.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.0c8e66c4.css.map": "/Portfolio/static/css/main.0c8e66c4.css.map",
-    "main.f82dd278.js.map": "/Portfolio/static/js/main.f82dd278.js.map"
+    "main.29289b78.css.map": "/Portfolio/static/css/main.29289b78.css.map",
+    "main.cda9e460.js.map": "/Portfolio/static/js/main.cda9e460.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c8e66c4.css",
-    "static/js/main.f82dd278.js"
+    "static/css/main.29289b78.css",
+    "static/js/main.cda9e460.js"
   ]
 }
