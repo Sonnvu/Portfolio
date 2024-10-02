@@ -6,7 +6,9 @@ export default function Header() {
         <header class="sticky bg-white inset-x-0 top-0 z-50">
             <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8" aria-label="Global">
                 <div class="flex lg:flex-1">
-                    <Link to="/Portfolio" class="-m-1.5 p-1.5">
+                    <Link to="/Portfolio" class="-m-1.5 p-1.5"
+                          onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+                    >
                         <span class="sr-only">Your Company</span>
                         <img class="h-12 w-auto" src={logo} alt=""/>
                     </Link>

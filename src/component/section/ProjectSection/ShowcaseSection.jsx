@@ -30,6 +30,8 @@ export default function ShowcaseSection() {
                 ProjectDescription="Platform that helps student gain insights into the job market 
                                     to trajectorize career paths and maximize employability"
                 imgUrl={jobscope}
+                github="https://sonnvu.github.io/JobScope_Prototype1/"
+                pageUrl="https://sonnvu.github.io/jobscope-ui-v1/"
             >
                 <div className="pt-1 pb-3 -ml-2">
                     <SkillTag>Java</SkillTag>
@@ -102,7 +104,8 @@ export default function ShowcaseSection() {
                                     on which face is up. Kind of like the Timular block, but cheaper 
                                     and no subscription tier list"
                 imgUrl={portfolio}
-                github={"https://github.com/Sonnvu/Time_Block"}
+                github={"https://github.com/Sonnvu/Portfolio"}
+                pageUrl={"https://sonnvu.github.io/Portfolio"}
             >
                 <div className="pt-1 pb-3 -ml-2">
                     <SkillTag>JavaScript</SkillTag>
@@ -120,6 +123,7 @@ export default function ShowcaseSection() {
                 ProjectDescription="Simple Game Console with just one programmed soccer game with
                                     our main character: our lovely ECE Head Department Professor"
                 imgUrl={gameConsole}
+                github="https://github.com/Sonnvu/BopIt-1"
             >
                 <div className="pt-1 pb-3 -ml-2">
                     <SkillTag>C++</SkillTag>
@@ -137,7 +141,7 @@ export default function ShowcaseSection() {
                                     individually desinged IP block which includes ALU, ALU Control, Register File, Sign-extends,
                                     Multiplier, Control unit and many registers "
                 imgUrl={cpu}
-                github={"https://github.com/Sonnvu/Time_Block"}
+                github={"https://github.com/Sonnvu/32bits_adder_subtractor"}
             >
                 <div className="pt-1 pb-3 -ml-2">
                     <SkillTag>C/C++</SkillTag>
