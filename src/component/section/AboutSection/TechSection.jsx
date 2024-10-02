@@ -2,7 +2,7 @@ import TechCard from '../../utils/animation/card/TechCard'
 import SkillTag from '../../utils/animation/card/SkillTag'
 export default function TechSection() {
     return (
-        <div className="bg-slate-50 relative flex justify-center px-52">
+        <div className="bg-slate-50 relative flex justify-center lg:px-14 md:px-10">
             <TechCard title="Software Development">
                 <div className="flex flex-col">
                     <div className="text-gray-500 font-poppin pl-2 py-2">

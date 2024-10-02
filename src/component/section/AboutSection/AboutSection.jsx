@@ -36,7 +36,7 @@ export default function AboutSection() {
                 </p>
             </div>
             <TechSection />
-            <div className="relative flex flex-row py-16 justify-center items-center font-poppin bg-bgAboutHoriz space-x-24">
+            <div className="relative flex flex-row py-16 justify-center items-center font-poppin bg-bgAboutHoriz space-x-24 md:px-10 md:">
                 <Widget imgUrl={Project} bgColor="bg-blue-200" linkTo="/Project">
                     <h1 className="lg:text-2xl font-extrabold tracking-normal text-white z-10" >PROJECT</h1>
                 </Widget>

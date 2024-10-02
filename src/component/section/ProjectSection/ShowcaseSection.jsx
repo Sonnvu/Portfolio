@@ -5,6 +5,7 @@ import timular from "./timular.png"
 import physicsSim from "./ProjectileMotion.png"
 import cpu from "./cpu.png"
 import portfolio from "./portfolio.png"
+import gms from "./gms.png"
 import SkillTag from "../../utils/animation/card/SkillTag";
 import {useLocation} from "react-router-dom";
 import {useEffect} from "react";
@@ -21,7 +22,7 @@ export default function ShowcaseSection() {
     }, [location])
 
     return (
-        <div className="px-10 relative flex lg:flex-row md:flex-wrap sm:flex-col justify-center bg-slate-50">
+        <div className="relative flex lg:flex-row md:flex-wrap sm:flex-col justify-center bg-slate-50">
             <ProjectCard
                 id="jobscope"
                 bgColor="bg-blue-50"
@@ -69,6 +70,30 @@ export default function ShowcaseSection() {
                     
                 </div>
             </ProjectCard>
+
+            <ProjectCard
+                id="timular"
+                bgColor="bg-green-50"
+                ProjectTitle="BPMI Sponsored: GMS"
+                ProjectDescription="A productivity device that track time for each task depending
+                                    on which face is up. Kind of like the Timular block, but cheaper 
+                                    and no subscription tier list"
+                imgUrl={gms}
+                github={"https://sonnvu.github.io/gms-ui-v1/"}
+            >
+                <div className="pt-1 pb-3 -ml-2">
+                    <SkillTag>Java</SkillTag>
+                    <SkillTag>Spring Boot</SkillTag>
+                    <SkillTag>JavaScripts</SkillTag>
+                    <SkillTag>React.js</SkillTag>
+                    <SkillTag>Altium</SkillTag>
+                    <SkillTag>ESP32</SkillTag>
+                    <SkillTag>Arduino</SkillTag>
+                    <SkillTag>Git</SkillTag>
+                    <SkillTag>GitHub</SkillTag>
+                </div>
+            </ProjectCard>
+
             <ProjectCard
                 id="portfolio"
                 bgColor="bg-purple-50"
