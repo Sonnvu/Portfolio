@@ -6,10 +6,14 @@ import geto from './img/geto.jpg'
 import still from './img/still.jpg'
 import hallway from './img/hallway.jpg'
 import bottles from './img/bottles.jpg'
+import twopoint from './img/twoPoint.jpg'
+import twoapples from './img/twoApples.jpg'  
 
 export default function ArtTab() {
     return (
         <div className='grid grid-cols-2 gap-10 px-52 pt-20'>
+            <img src={twoapples} alt=""/>
+            <img src={twopoint} alt=""/>
             <img src={hallway} alt=""/>
             <img src={still} alt=""/>
             <img src={bottles} alt=""/>
