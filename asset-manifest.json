@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.29289b78.css",
-    "main.js": "/Portfolio/static/js/main.ac532114.js",
+    "main.js": "/Portfolio/static/js/main.8711b00e.js",
     "static/media/hallway.jpg": "/Portfolio/static/media/hallway.042980dd769baac7d64d.jpg",
+    "static/media/twoPoint.jpg": "/Portfolio/static/media/twoPoint.7ad7d2a65ba27efc6f9e.jpg",
     "static/media/ClubOrg.jpg": "/Portfolio/static/media/ClubOrg.c83c5574f14ca312c09c.jpg",
+    "static/media/twoApples.jpg": "/Portfolio/static/media/twoApples.350adb5a30899c7ded55.jpg",
     "static/media/still.jpg": "/Portfolio/static/media/still.fabed4b9c37ec0dd2788.jpg",
     "static/media/bottles.jpg": "/Portfolio/static/media/bottles.34bdb1f4617e63ce9f6c.jpg",
     "static/media/IMG_8692.jpg": "/Portfolio/static/media/IMG_8692.81502b30e787012d8f82.jpg",
@@ -49,10 +51,10 @@
     "static/media/Son_Vu.pdf": "/Portfolio/static/media/Son_Vu.b9485eb50f115dd8c33d.pdf",
     "index.html": "/Portfolio/index.html",
     "main.29289b78.css.map": "/Portfolio/static/css/main.29289b78.css.map",
-    "main.ac532114.js.map": "/Portfolio/static/js/main.ac532114.js.map"
+    "main.8711b00e.js.map": "/Portfolio/static/js/main.8711b00e.js.map"
   },
   "entrypoints": [
     "static/css/main.29289b78.css",
-    "static/js/main.ac532114.js"
+    "static/js/main.8711b00e.js"
   ]
 }
