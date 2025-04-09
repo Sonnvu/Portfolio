@@ -1,5 +1,5 @@
 import Widget from "../../utils/animation/card/Widget/Widget";
-import Art from "./table_drawing.jpg"
+import Art from "./oil_painting.jpg"
 import Project from  "./Project.jpg"
 import Sport from "./Sport.JPG"
 import Work from "./Work.jpg"
