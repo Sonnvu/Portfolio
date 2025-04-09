@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.29289b78.css",
-    "main.js": "/Portfolio/static/js/main.8711b00e.js",
+    "main.js": "/Portfolio/static/js/main.6ca077c7.js",
     "static/media/hallway.jpg": "/Portfolio/static/media/hallway.042980dd769baac7d64d.jpg",
     "static/media/twoPoint.jpg": "/Portfolio/static/media/twoPoint.7ad7d2a65ba27efc6f9e.jpg",
     "static/media/ClubOrg.jpg": "/Portfolio/static/media/ClubOrg.c83c5574f14ca312c09c.jpg",
@@ -11,6 +11,8 @@
     "static/media/IMG_8692.jpg": "/Portfolio/static/media/IMG_8692.81502b30e787012d8f82.jpg",
     "static/media/IMG_2387.jpg": "/Portfolio/static/media/IMG_2387.ffabfe5a0f4fd21e8acd.jpg",
     "static/media/Project.jpg": "/Portfolio/static/media/Project.ad2259bb8bef0c9550b9.jpg",
+    "static/media/pencil_woman_statue.jpg": "/Portfolio/static/media/pencil_woman_statue.811c45eaf9a3ada0e120.jpg",
+    "static/media/oil_painting.jpg": "/Portfolio/static/media/oil_painting.27237537d8b5a28e1890.jpg",
     "static/media/rmithuddle.jpg": "/Portfolio/static/media/rmithuddle.5cff13f924512cb67986.jpg",
     "static/media/frisbee4.jpg": "/Portfolio/static/media/frisbee4.884ce9f4bc5c9ccb7c8f.jpg",
     "static/media/Sport.JPG": "/Portfolio/static/media/Sport.2294863484ebeac01b10.JPG",
@@ -19,7 +21,6 @@
     "static/media/rmitfulbright.jpg": "/Portfolio/static/media/rmitfulbright.560f8ed220b9f2fee2c3.jpg",
     "static/media/Soldering.gif": "/Portfolio/static/media/Soldering.e6703e053d18be6d12f3.gif",
     "static/media/frisbee3.jpg": "/Portfolio/static/media/frisbee3.29f92cbd22b58800aaaf.jpg",
-    "static/media/table_drawing.jpg": "/Portfolio/static/media/table_drawing.cd1d800de575a22ac8aa.jpg",
     "static/media/dynamicpose.jpg": "/Portfolio/static/media/dynamicpose.cc5ec05ae1731eb3c066.jpg",
     "static/media/capitals.jpg": "/Portfolio/static/media/capitals.954b56ca58b9797d4680.jpg",
     "static/media/boxingCorner.JPG": "/Portfolio/static/media/boxingCorner.9a336a4ba915b248c713.JPG",
@@ -29,6 +30,7 @@
     "static/media/boxing1.JPG": "/Portfolio/static/media/boxing1.b9c068db173cac98047d.JPG",
     "static/media/IMG_0569.JPG": "/Portfolio/static/media/IMG_0569.9e9eb544d102a51c5a00.JPG",
     "static/media/Pitt-Campus.jpg": "/Portfolio/static/media/Pitt-Campus.2c6ce6ddbfcfa5a3bb0f.jpg",
+    "static/media/alla_prima_1.jpg": "/Portfolio/static/media/alla_prima_1.81757e90f797df2125e9.jpg",
     "static/media/IMG_0400.jpg": "/Portfolio/static/media/IMG_0400.77eba866b636a99c9a34.jpg",
     "static/media/team.jpg": "/Portfolio/static/media/team.70c907cda11761cb8695.jpg",
     "static/media/holdcup.jpg": "/Portfolio/static/media/holdcup.d20921e6c764637eac29.jpg",
@@ -51,10 +53,10 @@
     "static/media/Son_Vu.pdf": "/Portfolio/static/media/Son_Vu.b9485eb50f115dd8c33d.pdf",
     "index.html": "/Portfolio/index.html",
     "main.29289b78.css.map": "/Portfolio/static/css/main.29289b78.css.map",
-    "main.8711b00e.js.map": "/Portfolio/static/js/main.8711b00e.js.map"
+    "main.6ca077c7.js.map": "/Portfolio/static/js/main.6ca077c7.js.map"
   },
   "entrypoints": [
     "static/css/main.29289b78.css",
-    "static/js/main.8711b00e.js"
+    "static/js/main.6ca077c7.js"
   ]
 }
