@@ -30,7 +30,7 @@ export default function ShowcaseSection() {
                 ProjectDescription="Platform that helps student gain insights into the job market 
                                     to trajectorize career paths and maximize employability"
                 imgUrl={jobscope}
-                github="https://sonnvu.github.io/JobScope_Prototype1/"
+                github="https://github.com/Sonnvu/jobscope-ui-v1"
                 pageUrl="https://sonnvu.github.io/jobscope-ui-v1/"
             >
                 <div className="pt-1 pb-3 -ml-2">
@@ -81,7 +81,7 @@ export default function ShowcaseSection() {
                                     on which face is up. Kind of like the Timular block, but cheaper 
                                     and no subscription tier list"
                 imgUrl={gms}
-                github={"https://sonnvu.github.io/gms-ui-v1/"}
+                github={"https://github.com/Sonnvu/gms-gateway-v1"}
             >
                 <div className="pt-1 pb-3 -ml-2">
                     <SkillTag>Java</SkillTag>
